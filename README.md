@@ -194,13 +194,11 @@ Michi/
 │   ├── PlaidService.swift       # Plaid integration
 │   └── AuthService.swift        # Supabase authentication
 │
-├── Utilities/
-│   ├── Config.swift             # App configuration
-│   ├── Extensions.swift         # Swift extensions
-│   └── KeychainManager.swift    # Secure token storage
-│
-└── Resources/
-    └── Assets.xcassets          # Images, colors, icons
+└──  Utilities/
+    ├── Config.swift             # App configuration
+    ├── Extensions.swift         # Swift extensions
+    └── KeychainManager.swift    # Secure token storage
+
 ```
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design patterns and principles.
