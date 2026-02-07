@@ -298,3 +298,45 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 **Built with ❤️ for better financial health**
 
+=======
+# Plaid Sandbox Demo
+
+## Overview
+A simple web application that demonstrates how to use Plaid's sandbox environment. Users can click **Link Bank Account**, connect a test bank account, and view the most recent transactions in a sleek dark‑theme UI.
+
+## Prerequisites
+- **Node.js** (v20 or later) – you can verify with `node -v`.
+- A Plaid sandbox account. Sign up at https://dashboard.plaid.com and obtain the **Client ID** and **Sandbox Secret**.
+
+## Setup
+1. **Clone the repo** (or copy the folder) and `cd` into it:
+   ```bash
+   cd /Users/kurtis/Michi/SuperSecertTopSecert
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Create a `.env` file** (already present) and fill in your Plaid credentials:
+   ```dotenv
+   PLAID_CLIENT_ID=your_client_id_here
+   PLAID_SECRET=your_sandbox_secret_here
+   PLAID_ENV=sandbox
+   ```
+   *Do not commit this file – it is ignored via `.gitignore`.*
+
+## Running the App
+```bash
+npm run start
+```
+The server will start on **http://localhost:3000**. Open that URL in a browser, click **Link Bank Account**, choose a sandbox test user (e.g., `user_good` / `pass_good`), and the recent transactions will appear.
+
+## Project Structure
+- `server.js` – Express backend that talks to Plaid.
+- `public/` – Front‑end assets (`index.html`, `style.css`, `script.js`).
+- `.env` – Holds your Plaid credentials (ignored by Git).
+- `.gitignore` – Excludes `node_modules`, `.env`, logs, OS files, etc.
+- `requirements.txt` – Lists the npm packages used (for reference).
+
+## License
+This demo is provided **as‑is** for learning purposes.

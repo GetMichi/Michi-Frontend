@@ -1,0 +1,9 @@
+# Node.js dependencies for Plaid demo
+# Generated from package.json
+cors@2.8.6
+dotenv@16.6.1
+express@4.22.1
+plaid@41.1.0
+
+# Recommended Node version (as of this project)
+# >=20.0.0
