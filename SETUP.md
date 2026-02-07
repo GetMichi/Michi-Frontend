@@ -94,6 +94,22 @@ git push -u origin main
 3. Choose: "Up to Next Major Version" from "5.8.0"
 4. Click Add Package
 ```
+### Recommended Packages (Add when ready)
+
+1. **Supabase Swift**
+   ```
+   https://github.com/supabase-community/supabase-swift
+   ```
+
+2. **Plaid Link iOS**
+   ```
+   https://github.com/plaid/plaid-link-ios
+   ```
+
+3. **KeychainAccess** (optional, we have our own)
+   ```
+   https://github.com/kishikawakatsumi/KeychainAccess
+   ```
 
 ## Running Your App
 
@@ -125,7 +141,7 @@ Run tests with:
 
 ## Next Steps
 
-✅ You've completed setup! Now you can:
+You've completed setup! Now you can:
 - Start building features
 - Add more views and models
 - Integrate APIs
