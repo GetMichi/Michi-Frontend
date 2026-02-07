@@ -6,7 +6,7 @@ Michi is an iOS-first financial app that combines deterministic budgeting logic 
 
 ---
 
-## 📱 About
+## About
 
 Michi provides:
 - **Intelligent budgeting** powered by rule-based calculation engines
@@ -23,7 +23,7 @@ Michi provides:
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 ### Frontend (iOS)
 - **Platform**: iOS (Swift)
@@ -52,31 +52,31 @@ Michi provides:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 📊 Smart Budgeting
+### Smart Budgeting
 - Automatic budget allocation based on your income and spending patterns
 - Real-time tracking of spending vs. budget
 - Category-based breakdowns with visual charts
 
-### 💬 AI Financial Coach
+### AI Financial Coach
 - Conversational chatbot that explains your finances in plain language
 - Adaptive tone: supportive, direct, or neutral
 - Context-aware suggestions based on your actual data
 - Streaming responses for natural conversation flow
 
-### 🔗 Bank Integration
+### Bank Integration
 - Secure connection to your bank accounts via Plaid
 - Automatic transaction syncing
 - Balance tracking across multiple accounts
 
-### 📈 Financial Insights
+### Financial Insights
 - Spending trends over time
 - Cashflow projections
 - Debt payoff calculations
 - Goal progress tracking
 
-### 🔔 Smart Notifications
+### Smart Notifications
 - Spending alerts when approaching budget limits
 - Goal reminders
 - Monthly financial summaries
@@ -84,7 +84,7 @@ Michi provides:
 
 ---
 
-## 🛠 Technical Stack
+## Technical Stack
 
 ### iOS Application
 ```
@@ -133,7 +133,7 @@ iOS Chat UI
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - macOS 14.0+
@@ -168,7 +168,7 @@ See the [backend repository](https://github.com/YOUR_USERNAME/Michi-Backend) for
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Michi/
@@ -205,7 +205,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design patterns and principl
 
 ---
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - **Encryption**: All financial data encrypted at rest and in transit
 - **Token Storage**: Plaid and auth tokens stored in iOS Keychain
@@ -215,7 +215,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design patterns and principl
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run Unit Tests
 ```bash
@@ -233,7 +233,7 @@ xcodebuild test -scheme Michi -destination 'platform=iOS Simulator,name=iPhone 1
 
 ---
 
-## 🛣 Roadmap
+## Roadmap
 
 ### MVP (Current)
 - [x] iOS app with SwiftUI
@@ -253,7 +253,7 @@ xcodebuild test -scheme Michi -destination 'platform=iOS Simulator,name=iPhone 1
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -265,19 +265,19 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## 👥 Team
+## Team
 **Product & Engineering**
 - [Your Name] - Founder
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 - [Technical Architecture](ARCHITECTURE.md) - Detailed system design
 - [Setup Guide](SETUP.md) - Development environment setup
@@ -286,7 +286,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 ---
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/Michi/issues)
 - **Email**: support@michi.app
